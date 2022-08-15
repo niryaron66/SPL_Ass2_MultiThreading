@@ -1,0 +1,147 @@
+{
+    "Students":
+    [
+        {
+            "name": "Simba",
+            "department": "Computer Science",            
+            "status": "MSc",
+            "models":
+            [
+                {
+                    "name": "A1",
+                    "type": "Tabular",
+                    "size": 2000
+                },
+                {
+                    "name": "A2",
+                    "type": "images",
+                    "size": 2000
+                },
+                {
+                    "name": "A3",
+                    "type": "images",
+                    "size": 2000
+                },
+                {
+                    "name": "A4",
+                    "type": "images",
+                    "size": 2000
+                }
+            ]
+
+        },
+        {
+            "name": "Zazu",
+            "department": "EE",            
+            "status": "PhD",
+            "models":
+            [
+                {
+                    "name": "B1",
+                    "type": "Tabular",
+                    "size": 2000
+                }
+            ]
+
+        },
+        {
+            "name": "Pumba",
+            "department": "Computer Science",            
+            "status": "PhD",
+            "models":
+            [
+                {
+                    "name": "C1",
+                    "type": "Tabular",
+                    "size": 2000
+                },
+                {
+                    "name": "C2",
+                    "type": "Text",
+                    "size": 1000
+                },
+                {
+                    "name": "C3",
+                    "type": "Text",
+                    "size": 3000
+                },
+                {
+                    "name": "C4",
+                    "type": "Text",
+                    "size": 2000
+                }
+            ]
+
+        },
+        {
+            "name": "Timon",
+            "department": "SE",            
+            "status": "MsC",
+            "models":
+            [
+                {
+                    "name": "D1",
+                    "type": "Tabular",
+                    "size": 2000
+                },
+                {
+                    "name": "D2",
+                    "type": "Tabular",
+                    "size": 1000
+                },
+                {
+                    "name": "D3",
+                    "type": "Images",
+                    "size": 3000
+                },
+                {
+                    "name": "D4",
+                    "type": "Images",
+                    "size": 3000
+                }
+            ]
+
+        },
+        {
+            "name": "Nala",
+            "department": "Computer Science",            
+            "status": "PhD",
+            "models":
+            [
+                {
+                    "name": "E1",
+                    "type": "Tabular",
+                    "size": 5000
+                },
+                {
+                    "name": "E2",
+                    "type": "images",
+                    "size": 3000
+                },
+                {
+                    "name": "E3",
+                    "type": "images",
+                    "size": 2000
+                },
+                {
+                    "name": "E4",
+                    "type": "images",
+                    "size": 4000
+                }
+            ]
+
+        }
+    ],
+    "GPUS": ["RTX3090","RTX2080","GTX1080"],
+    "CPUS": [32,32,32],
+    "Conferences":
+    [
+        {"name": "ICML", "date": 2000},
+        {"name": "NeurIPS", "date": 2500},
+        {"name": "CVPR", "date": 3000},
+        {"name": "ECCV", "date": 4000},
+        {"name": "AISTATS", "date": 5000}
+    ],
+    "TickTime": 1,
+    "Duration": 5000
+}
